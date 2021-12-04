@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="17" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testproj" duration-ms="5845" started-at="2020-03-04T02:04:48 SGT" finished-at="2020-03-04T02:04:54 SGT">
+    <groups>
+      <group name="groupAbnormal">
+        <method signature="StreamControllerTests.CreateIndex_CsvNotExist()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_CsvNotExist" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.CreateIndex_EmptyIndex()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_EmptyIndex" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.CreateIndex_EmptySource()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_EmptySource" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.CreateIndex_EmptyTopic()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_EmptyTopic" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.CreateIndex_InvalidSourceType()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_InvalidSourceType" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.CreateIndex_NullTopic()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_NullTopic" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.DeleteStreamer_EmptyStreamerId()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="DeleteStreamer_EmptyStreamerId" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.StartStreamer_EmptyStreamerId()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="StartStreamer_EmptyStreamerId" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+        <method signature="StreamControllerTests.StopStreamer_EmptyStreamerId()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="StopStreamer_EmptyStreamerId" class="com.bigdata.springboot.akka.StreamControllerTests"/>
+      </group> <!-- groupAbnormal -->
+    </groups>
+    <test name="testController" duration-ms="5845" started-at="2020-03-04T02:04:48 SGT" finished-at="2020-03-04T02:04:54 SGT">
+      <class name="com.bigdata.springboot.akka.StreamControllerTests">
+        <test-method status="PASS" signature="CreateIndex_CsvNotExist()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_CsvNotExist" duration-ms="5010" started-at="2020-03-04T02:04:48 SGT" finished-at="2020-03-04T02:04:53 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIndex_CsvNotExist -->
+        <test-method status="PASS" signature="CreateIndex_EmptyIndex()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_EmptyIndex" duration-ms="114" started-at="2020-03-04T02:04:53 SGT" finished-at="2020-03-04T02:04:53 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIndex_EmptyIndex -->
+        <test-method status="PASS" signature="CreateIndex_EmptySource()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_EmptySource" duration-ms="96" started-at="2020-03-04T02:04:53 SGT" finished-at="2020-03-04T02:04:53 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIndex_EmptySource -->
+        <test-method status="PASS" signature="CreateIndex_EmptyTopic()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_EmptyTopic" duration-ms="89" started-at="2020-03-04T02:04:53 SGT" finished-at="2020-03-04T02:04:53 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIndex_EmptyTopic -->
+        <test-method status="PASS" signature="CreateIndex_InvalidSourceType()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_InvalidSourceType" duration-ms="79" started-at="2020-03-04T02:04:53 SGT" finished-at="2020-03-04T02:04:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIndex_InvalidSourceType -->
+        <test-method status="PASS" signature="CreateIndex_NullTopic()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="CreateIndex_NullTopic" duration-ms="85" started-at="2020-03-04T02:04:54 SGT" finished-at="2020-03-04T02:04:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIndex_NullTopic -->
+        <test-method status="PASS" signature="DeleteStreamer_EmptyStreamerId()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="DeleteStreamer_EmptyStreamerId" duration-ms="78" started-at="2020-03-04T02:04:54 SGT" finished-at="2020-03-04T02:04:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteStreamer_EmptyStreamerId -->
+        <test-method status="PASS" signature="StartStreamer_EmptyStreamerId()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="StartStreamer_EmptyStreamerId" duration-ms="84" started-at="2020-03-04T02:04:54 SGT" finished-at="2020-03-04T02:04:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartStreamer_EmptyStreamerId -->
+        <test-method status="PASS" signature="StopStreamer_EmptyStreamerId()[pri:0, instance:com.bigdata.springboot.akka.StreamControllerTests@58a90037]" name="StopStreamer_EmptyStreamerId" duration-ms="67" started-at="2020-03-04T02:04:54 SGT" finished-at="2020-03-04T02:04:54 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopStreamer_EmptyStreamerId -->
+      </class> <!-- com.bigdata.springboot.akka.StreamControllerTests -->
+    </test> <!-- testController -->
+  </suite> <!-- testproj -->
+</testng-results>

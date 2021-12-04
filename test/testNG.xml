@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" parallel="false">
+    <test name="testController">
+        <groups>
+            <run>
+                <include name="groupAbnormal" />
+                <exclude name="groupCorrect" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.bigdata.springboot.akka.StreamControllerTests"/>
+            <class name="com.bigdata.springboot.akka.ElasticSearchApiTests"/>
+            <class name="com.bigdata.springboot.akka.KafkaConsumerApiTests"/>
+        </classes>
+    </test>
+</suite>
