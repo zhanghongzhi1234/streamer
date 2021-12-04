@@ -113,4 +113,4 @@ The Actor model chosen this time is mainly due to high concurrency requirements.
 
 ## License
 
-KubeEdge Mapper is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details..
+This appplication is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details..
